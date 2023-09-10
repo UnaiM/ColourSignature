@@ -28,7 +28,7 @@ Instead, this is about identifying a colour space’s distinctive characteristic
    * With a [matrix][8] and a [logarithmic function][9] **vs** with a [3D LUT][10].
 2. It should produce **different hashes for different colour spaces** even between very similar pairs, e.g.:
    * ARRI LogC3 ([EI][11]640) Wide Gamut 3 **vs** ARRI LogC3 (EI800) Wide Gamut 3.
-   * ACEScc **vs** ACESproxy.
+   * ACEScc **vs** ACEScct.
 3. It should produce relatively **short hashes,** so that (at least) once generated, using them is fast.
 
 
